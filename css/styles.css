@@ -1,0 +1,202 @@
+body {
+    font-family: "Montserrat-Black";
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container-fluid {
+   padding: 3% 5% 0;
+}
+
+/* Principal */
+.cover{
+    height:100vh;
+    background-image:url('/images/imagen-bin.jpg');
+    background-size:cover;
+    color: white;
+    background-position:center;
+    background-color:rgba(0, 0, 0, 0.5);
+    background-blend-mode:darken;
+}
+
+/* SECTION */
+.section-gray {
+    background-color: #222323;
+    color: #fff;
+}
+
+.section-green {
+    background-color: #5DB548;
+    color: #000;
+}
+
+/* TEXTO */
+.title-big {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.titulo-medio {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.text {
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+/* BARRA DE NAVEGACIÓN*/
+header .container-fluid {
+    padding: 10px 5px;
+    background-color: #000;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-size: 1.2rem;
+}
+
+/* HOME */
+#home {
+    padding: 5% 15%;
+    background-color: #006f54;
+}
+
+.home-imagen {
+    width: 80%;
+    padding-right: 3%;
+}
+
+.col-lg-6 {
+    padding-bottom: 5%;
+    margin: auto;
+}
+
+/* Calculator */
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.calculadora {
+    display: grid;
+    grid-template-columns: repeat(5, 75px);
+    grid-template-rows: 160px repeat(5, 75px);
+    background-color: #00916e;
+    padding: 15px;
+    border-radius: 32px;
+    box-shadow: 15px 10px 0px 5px #00000033;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+}
+
+.opciones-base {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+.opciones-base label {
+    margin-bottom: 0.5rem;
+}
+
+button {
+    cursor: pointer;
+    margin: 5px;
+    padding: 0;
+    border-radius: 32px;
+    font-size: 1.5em;
+    border: none;
+    background-color: #00916e;
+    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
+}
+
+button:active {
+    background-color: #006f54;
+}
+
+button:focus {
+    outline: none;
+}
+
+.columns-2 {
+    grid-column: span 2;
+}
+
+.col-6 label {
+    font-size: 1.8rem;
+    color: #00916e;
+}
+
+.col-6 .convertor {
+    font-size: 1.2rem;
+}
+
+.display {
+    grid-column: 2 / -1;
+    padding: 16px;
+    display: flex;
+    margin: 10px 10px 20px;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #363636;
+    border-radius: 32px;
+    text-align: right;
+    justify-content: space-between;
+    word-break: break-all;
+    box-shadow: 0px 0px 0px 10px #00000033;
+    margin-left: 1.5rem;
+}
+
+/* Section Calculadora */
+.opciones-base div {
+    margin-bottom: 10%;
+}
+
+.container {
+    padding: 2%;
+}
+
+#valor-actual {
+    font-size: 1.5em;
+}
+
+#valor-anterior {
+    font-size: 2em;
+}
+
+/* footer */
+#footer {
+    padding: 2% 15%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.footer-icon {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
